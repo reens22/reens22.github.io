@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+    padding: 0;
+
+}
+
+h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#header {
+    background-color: #c2879b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#image-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+#image-container img {
+    width: 300px; 
+    height: 300px; 
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+#footer {
+    background-color: #c2879b;
+    color: white;
+    text-align: center;
+    padding: 10px;
